@@ -12,8 +12,8 @@ export default class MeetingPage extends React.Component {
         }
         else {
             let pathname = this.props.location.pathname;
-            let pathnameMinusSlashOne = pathname.substring(pathname.indexOf("/") + 1);
-            meetingId = pathnameMinusSlashOne.substring(pathnameMinusSlashOne.indexOf("/") + 1);
+            let  pathnameMinusFirstSlash = pathname.substring(pathname.indexOf("/") + 1);
+            meetingId =  pathnameMinusFirstSlash.substring( pathnameMinusFirstSlash.indexOf("/") + 1);
             meetingId.trim();
         }
 
