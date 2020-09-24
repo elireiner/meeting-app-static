@@ -1,24 +1,49 @@
 export const teams = [
-    {
-        "name": "productivity",
-        "department": "Human Resources"
-    },
-    {
-        "name": "numbers",
-        "department": "Finance"
-    },
-    {
-        "name": "strategy",
-        "department": "Finance"
-    },
-    {
-        "name": "costumers",
-        "department": "Sales"
-    },
-    {
-        "name": "strategy",
-        "department": "Marketing"
-    }
+  {
+    "_id": "5f6cbed2ad33496b2c1aa8a8",
+    "name": "Miracle Workers",
+    "department": "Sales"
+  },
+  {
+    "_id": "5f6cbed27e7ce1626650728c",
+    "name": "Innovation Geeks",
+    "department": "Marketing"
+  },
+  {
+    "_id": "5f6cbed2bf1f47857207f60a",
+    "name": "Mind Benders",
+    "department": "Sales"
+  },
+  {
+    "_id": "5f6cbed2ff80985883d04b13",
+    "name": "Heart Warmers",
+    "department": "Sales"
+  },
+  {
+    "_id": "5f6cbed25d5783ba8c2e6963",
+    "name": "Miracle Workers",
+    "department": "Marketing"
+  },
+  {
+    "_id": "5f6cbed2c517b2cc75861d50",
+    "name": "Heart Warmers",
+    "department": "Finance"
+  },
+  {
+    "_id": "5f6cbed2412869f0b45451b6",
+    "name": "Diva Drive",
+    "department": "Finance"
+  },
+  {
+    "_id": "5f6cbed22a9901b562fa6dc2",
+    "name": "Innovation Geeks",
+    "department": "Sales"
+  },
+  {
+    "_id": "5f6cbed28171ee716aa42566",
+    "name": "Prosper Gurus",
+    "department": "Finance"
+  }
 ];
 
 export const meetings = [
