@@ -5,6 +5,9 @@ import NewMeeting from '../NewMeeting/NewMeeting';
 import Meetings from '../Meetings/Meetings';
 import Teams from '../Teams/Teams';
 import MeetingPage from '../MeetingPage/MeetingPage';
+import Assess from '../Assess/Assess';
+import TeamPage from '../TeamPage/TeamPage';
+import CreateMeeting from '../CreateMeeting/CreateMeeting';
 
 export default class App extends React.Component {
 
@@ -21,10 +24,13 @@ export default class App extends React.Component {
           )}
         />
 
-        <Route path="/new-meeting" component={NewMeeting} />{" "}
+        <Route path="/new-meeting-teams" component={NewMeeting} />{" "}
         <Route path="/meetings" component={Meetings} />{" "}
         <Route path="/teams" component={Teams} />{" "}
         <Route path="/meeting/:meetingId" component={MeetingPage} />{" "}
+        <Route path="/assess/:meetingId" component={Assess} />{" "}
+        <Route path="/team/:teamId" component={TeamPage} />{" "}
+        <Route path="/new-meeting/:teamId" component={CreateMeeting} />{" "}
       </div>
     )
   }
